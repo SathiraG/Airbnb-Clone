@@ -2,7 +2,8 @@
 
 :root {
   font-family: 'Roboto', sans-serif;
-  background-color: #242424;
+  --black: #222222;
+  --gray: #757474;
 }
 
 a {
@@ -16,10 +17,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -37,4 +34,52 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/**********
+ Navbar 
+**********/
+
+nav{
+  height: 10vh;
+  box-shadow: 0 0 1px #000;
+}
+.navContent{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navContent img{
+  height: 60%;
+}
+.navMiddleDiv{
+  padding: 0.75vw;
+  border: 0px solid black;
+  box-shadow: 0 0 1px #000;
+  border-radius: 30px;
+  display: flex;
+  gap: 1vw;
+}
+.navMiddleDiv .middle{
+  padding: 0 1vw;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.navEndDiv{
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+.navEndDiv div{
+  padding: 0.75vw;
+  box-shadow: 0 0 1px #000;
+  border-radius: 30px;
 }
