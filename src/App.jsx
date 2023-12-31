@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import Menu from './components/Menu'
 
 export default function(){
   return (
-      <Navbar />
+      <div>
+        <Navbar />
+        <Menu />
+      </div>
   )
 }
