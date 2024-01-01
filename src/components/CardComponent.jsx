@@ -39,7 +39,7 @@ export default function CardComponent(prop){
                     <p className="card-price"><span className="bold">Rs {prop.price}</span> night</p>
                 </div>
                 <div>
-                    <p><i class="ri-star-s-fill"></i> {prop.ratings}</p>
+                    {prop.ratings ? <p><i class="ri-star-s-fill"></i> {prop.ratings}</p> : null}
                 </div>
 
             </div>
