@@ -22,6 +22,10 @@ export default function (){
         <div className="container">
             <div className="cards">
                     {cardlist}
+                    <card className="card-ending">
+                        <h3>Continue exploring tropical homes</h3>
+                        <button>Show More</button>
+                    </card>
             </div>
         </div>
     )
