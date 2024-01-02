@@ -1,11 +1,27 @@
-# React + Vite
+# Airbnb Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a static Airbnb clone built using React and Vite. The project demonstrates the use of modern web technologies and techniques to create a user-friendly and visually appealing Airbnb-like experience.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the project locally, follow these steps:
 
+1. Clone the repository to your local machine.
+2. Install the required dependencies using `npm install`.
+3. Run the project locally using `npm run dev`.
+4. Open your web browser and navigate to `http://localhost:3000` to view the Airbnb clone.
 
-https://www.airbnb.com/?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&search_mode=flex_destinations_search&flexible_trip_lengths%5B%5D=one_week&location_search=MIN_MAP_BOUNDS&monthly_start_date=2024-01-01&monthly_length=3&price_filter_input_type=0&channel=EXPLORE&search_type=category_change&price_filter_num_nights=5&category_tag=Tag%3A5635
+## Technologies Used
+
+- React for building the user interface components.
+- Vite for a fast and efficient development setup.
+- CSS for styling the components.
+- JavaScript for implementing the logic and interactivity.
+
+## Acknowledgements
+
+This project is inspired by the Airbnb website and is not affiliated with Airbnb, Inc. The purpose of this project is to learn modern web technologies and techniques while creating a functional and visually appealing Airbnb clone.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
