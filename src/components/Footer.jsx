@@ -31,7 +31,11 @@ export default function (){
                     <p>Airbnb.org emergency stays</p>
                 </div>
             </div>
+
+
             <hr></hr>
+
+
             <div className="container footer-bottom">
                 <div className="footer-bottom-left">
                     <p>© 2024 Airbnb, Inc.</p>
@@ -43,7 +47,7 @@ export default function (){
                     </ul>
                 </div>
                 <div className="footer-bottom-right">
-                    <p><i class="ri-global-line"></i> English(US)</p>
+                    <p style={{display:"flex"}}><i class="ri-global-line"></i> English(US)</p>
                     <p>LKR</p>
                     <p className="footer-right-end"><i class="ri-facebook-circle-fill"></i><i class="ri-twitter-x-line"></i><i class="ri-instagram-line"></i></p>
                 </div>

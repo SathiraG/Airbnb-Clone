@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 export default function(){
   return (
-      <div>
+      <div className='main'>
         <Navbar />
         <Menu />
         <Card />

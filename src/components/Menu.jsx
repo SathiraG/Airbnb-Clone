@@ -16,9 +16,10 @@ export default function (){
     return(
         <div className="container menu">
             {menulist}         
+            {window.innerWidth < 657 ? "" : 
             <div className="filter">
-                <i class="ri-equalizer-line"></i> Filter
-            </div>
+                <i class="ri-equalizer-line"></i>
+            </div>}
         </div>
     )
 }
